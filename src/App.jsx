@@ -30,7 +30,6 @@ const App = () => {
       setCopySuccess(true);
       setTimeout(() => setCopySuccess(false), 2000);
     } catch (err) {
-      // Fallback for older browsers
       const textArea = document.createElement('textarea');
       textArea.value = generatedCode;
       document.body.appendChild(textArea);
@@ -42,7 +41,6 @@ const App = () => {
     }
   };
 
-  // Generate code on component mount and when values change
   useEffect(() => {
     generateCode();
   }, [colorOne, colorTwo, currentDirection]);

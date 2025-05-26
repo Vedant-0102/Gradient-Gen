@@ -1,4 +1,3 @@
-/* CSS Reset and Global Styles */
 *,
 *::before,
 *::after {
@@ -29,7 +28,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Remove default button styles */
 button {
   font-family: inherit;
   font-size: 100%;
@@ -41,7 +39,6 @@ button {
   background-image: none;
 }
 
-/* Remove default input styles */
 input {
   font-family: inherit;
   font-feature-settings: inherit;
@@ -54,7 +51,6 @@ input {
   padding: 0;
 }
 
-/* Remove default textarea styles */
 textarea {
   font-family: inherit;
   font-feature-settings: inherit;
@@ -68,39 +64,33 @@ textarea {
   resize: vertical;
 }
 
-/* Improve text rendering */
 h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   font-weight: 600;
   line-height: 1.25;
 }
 
-/* Remove default list styles */
 ol, ul {
   list-style: none;
 }
 
-/* Remove default link styles */
 a {
   color: inherit;
   text-decoration: inherit;
 }
 
-/* Improve table styles */
 table {
   text-indent: 0;
   border-color: inherit;
   border-collapse: collapse;
 }
 
-/* Improve form elements */
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
   color: #9ca3af;
 }
 
-/* Focus styles */
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
@@ -108,7 +98,6 @@ textarea:focus-visible {
   outline-offset: 2px;
 }
 
-/* Scrollbar styles for webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -129,7 +118,6 @@ textarea:focus-visible {
   background: #94a3b8;
 }
 
-/* Selection styles */
 ::selection {
   background-color: #3b82f6;
   color: white;
@@ -140,20 +128,17 @@ textarea:focus-visible {
   color: white;
 }
 
-/* Root element styles */
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Improve image loading */
 img {
   height: auto;
   max-width: 100%;
 }
 
-/* Better default styles for code elements */
 code {
   font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
   font-size: 0.875em;
@@ -171,7 +156,6 @@ pre {
   border: 1px solid #e2e8f0;
 }
 
-/* Print styles */
 @media print {
   *,
   *::before,
@@ -213,7 +197,6 @@ pre {
   }
 }
 
-/* Reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -225,7 +208,6 @@ pre {
   }
 }
 
-/* High contrast mode support */
 @media (prefers-contrast: high) {
   button,
   input,
@@ -234,7 +216,6 @@ pre {
   }
 }
 
-/* Dark mode base styles */
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #0f172a;

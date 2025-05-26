@@ -191,7 +191,7 @@
   
   .code-output {
     width: 100%;
-    padding: 16px 80px 16px 16px; /* Added right padding for copy button */
+    padding: 16px 80px 16px 16px; 
     border: 1.5px solid #e5e7eb;
     border-radius: 10px;
     font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
@@ -246,7 +246,6 @@
     100% { transform: translateY(-50%) scale(1); }
   }
   
-  /* Responsive Design */
   @media (max-width: 480px) {
     .container {
       padding: 24px 20px;
@@ -290,7 +289,6 @@
     }
   }
   
-  /* Dark mode support */
   @media (prefers-color-scheme: dark) {
     .container {
       background: rgba(17, 24, 39, 0.98);
