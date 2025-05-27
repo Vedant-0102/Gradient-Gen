@@ -29,7 +29,7 @@ A modern, interactive tool for creating beautiful CSS gradients with a real-time
 
 ### Clone the Repository
 ```sh
-git clone hhttps://github.com/Vedant-0102/Gradient-Gen.git
+git clone https://github.com/Vedant-0102/Gradient-Gen.git
 ```
 
 Install Dependencies
